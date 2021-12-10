@@ -246,7 +246,7 @@
         android:maxLines="20"
         android:text="0"
         android:textColor="#FFFFFF"
-        android:textSize="69sp"
+        android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

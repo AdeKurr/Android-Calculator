@@ -42,11 +42,14 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("1");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "1");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("1");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "1"));
                 }
             }
         });
@@ -54,11 +57,14 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("2");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "2");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("2");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "2"));
                 }
             }
         });
@@ -66,11 +72,14 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("3");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "3");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("3");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "3"));
                 }
             }
         });
@@ -78,11 +87,14 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("4");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "4");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("4");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "4"));
                 }
             }
         });
@@ -90,11 +102,14 @@ public class MainActivity extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("5");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "5");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("5");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "5"));
                 }
             }
         });
@@ -102,11 +117,14 @@ public class MainActivity extends AppCompatActivity {
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("6");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "6");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("6");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "6"));
                 }
             }
         });
@@ -114,11 +132,14 @@ public class MainActivity extends AppCompatActivity {
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("7");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "7");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("7");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "7"));
                 }
             }
         });
@@ -126,11 +147,14 @@ public class MainActivity extends AppCompatActivity {
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("8");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "8");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("8");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "8"));
                 }
             }
         });
@@ -138,11 +162,14 @@ public class MainActivity extends AppCompatActivity {
         button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("9");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "9");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("9");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "9"));
                 }
             }
         });
@@ -150,11 +177,14 @@ public class MainActivity extends AppCompatActivity {
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if (mainNumber.getText().equals("0")) {
+                try{
+                    if (mainNumber.getText().equals("0")) {
+                        mainNumber.setText("0");
+                    } else {
+                        mainNumber.setText(Integer.parseInt(mainNumber.getText().toString()) + "0");
+                    }
+                } catch (Throwable e){
                     mainNumber.setText("0");
-                } else {
-                    mainNumber.setText(String.valueOf(Integer.parseInt(mainNumber.getText().toString()) + "0"));
                 }
             }
         });
@@ -226,23 +256,34 @@ public class MainActivity extends AppCompatActivity {
                 int calc = 0;
                 String output = "";
                 input2 = Integer.parseInt(mainNumber.getText() + "");
-                if (plus == true) {
-                    calc = input1 + input2;
+                try {
+                    if (plus == true) {
+                        calc = input1 + input2;
+                        plus = false;
+                    } else if (minus == true) {
+                        calc = input1 - input2;
+                        minus = false;
+                    } else if (multiply == true) {
+                        calc = input1 * input2;
+                        multiply = false;
+                    } else if (divide == true) {
+                        calc = input1 / input2;
+                        divide = false;
+                    }
+                    input1 = 0;
+                    input2 = 0;
+                    output = String.valueOf(calc);
+                    mainNumber.setText(output);
+                } catch (Throwable e){
+                    mainNumber.setText("Error");
+                    input1 = 0;
+                    input2 = 0;
                     plus = false;
-                } else if (minus == true) {
-                    calc = input1 - input2;
                     minus = false;
-                } else if (multiply == true) {
-                    calc = input1 * input2;
                     multiply = false;
-                } else if (divide == true) {
-                    calc = input1 / input2;
                     divide = false;
                 }
-                input1 = 0;
-                input2 = 0;
-                output = String.valueOf(calc);
-                mainNumber.setText(output);
+
 
             }
         });
